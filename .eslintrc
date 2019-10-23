@@ -1,0 +1,18 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "no-trailing-spaces": "off",
+    "no-console": "off",
+    "no-restricted-syntax": "off",
+    "no-prototype-builtins": "off"
+  }
+}
